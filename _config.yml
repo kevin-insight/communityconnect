@@ -1,0 +1,7 @@
+# Site settings
+title: CommunityConnect
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
