@@ -1,5 +1,4 @@
 body {
-  padding-bottom: 40px;
   background-color: #eee;
 }
 
@@ -55,7 +54,7 @@ hr {
     margin-left: 250px;
     padding-left: 30px;
     padding-right: 30px;
-    min-height: 1200px;
+    min-height: 1000px;
   }
 }
 
@@ -66,6 +65,7 @@ hr {
 .navbar {
   margin-bottom: 0px;
 }
+
 /*
  * Sidebar Menu
  */
