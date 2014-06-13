@@ -4,18 +4,26 @@ layout: default
 
 <div class="container">
   
-  <img class="img-responsive" src="/img/communityconnect-logo.jpg">
-  
-  <form class="form-signin" role="form">
-    <h2 class="form-signin-heading">Please sign in</h2>
-    <!-- Add required back in to turn on popups -->
-    <input type="email" class="form-control" placeholder="Email address" autofocus>
-    <input type="password" class="form-control" placeholder="Password">
-    <a href="{{ site.baseurl }}/dashboard" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</a>
-    <a href="#">Forgot Password?</a>
-    <hr>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Express Login</button>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Create New Account</button>
-  </form>
+  <div class="signin">
+    <div class="row">
+      <div class="col-md-4 center-block">
+        <img class="img-responsive" src="{{ site.baseurl }}/img/communityconnect-logo.png">
+      </div>
+    </div>
+    
+    <form class="form-signin" role="form">
+      <h3 class="form-signin-heading">Please sign in</h3>
+      <!-- Add required back in to turn on popups -->
+      <input type="email" class="form-control" placeholder="Email address" autofocus>
+      <input type="password" class="form-control" placeholder="Password">
+      <a href="{{ site.baseurl }}/dashboard" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</a>
+      <div class="form-signin-footer">
+        <a href="{{ site.baseurl }}/#">Forgot password?</a>
+        <hr>
+        <a href="{{ site.baseurl }}/#">Express Login</a><br />
+        <a href="{{ site.baseurl }}/#">Create new account</a>
+      </div>
+    </form>
+  </div>
 
 </div> <!-- /container -->

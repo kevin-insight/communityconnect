@@ -1,6 +1,6 @@
 # Site settings
 title: CommunityConnect
-baseurl: ""
+baseurl: "/communityconnect"
 
 # Build settings
 markdown: kramdown

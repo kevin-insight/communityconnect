@@ -1,11 +1,29 @@
+/*
+ * Global
+ */
+
 body {
   background-color: #eee;
 }
+.center-block {
+  float: none;
+}
 
+/*
+ * Sign in form
+ */
+
+.signin {
+  margin-top: 80px;
+}
 .form-signin {
   max-width: 330px;
   padding: 15px;
-  margin: 0 auto;
+  margin: 45px auto;
+  text-align: center;
+  background-color: white;
+  border: 3px solid #E7E7E7;
+  border-radius: 4px;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
@@ -36,8 +54,11 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-hr {
-  border: 1px solid #7E7E7E;
+.form-signin .form-signin-footer {
+  margin-top: 15px;
+}
+.form-signin .form-signin-footer hr {
+  border: 1px solid #E7E7E7;
 }
 
 /*
