@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -29,26 +29,28 @@ layout: default
     <div class="sidebar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav" id="side-menu">
         <li>
-          <a href="{{ site.baseurl }}/#">Dashboard</a>
+          <a href="{{ site.baseurl }}/#">Overview <span class="caret"></span></a>
+          <ul class="nav nav-second-level">
+              <li><a href="#">Demographics</a></li>
+              <li><a href="#">Segments</a></li>
+              <li><a href="#">Etc.</a></li>
+          </ul>
         </li>      
         <li>       
-          <a href="{{ site.baseurl }}/#">Find Customers</a>
+          <a href="{{ site.baseurl }}/#">Strategy and Plan <span class="caret"></span></a>
+          <ul class="nav nav-second-level">
+              <li><a href="#">Find Customers</a></li>
+              <li><a href="#">Develop Services</a></li>
+              <li><a href="#">LiteracyDecision</a></li>
+          </ul>
         </li>      
         <li>       
-          <a href="{{ site.baseurl }}/#">Increase Services</a>
+          <a href="{{ site.baseurl }}/#">Implement and Feedback <span class="caret"></span></a>
+          <ul class="nav nav-second-level">
+              <li><a href="#">Actions</a></li>
+              <li><a href="#">Feedback and Notes</a></li>
+          </ul>
         </li>      
-        <li>       
-          <a href="{{ site.baseurl }}/#">LiteracyDecision</a>
-        </li>      
-        <li>       
-          <a href="{{ site.baseurl }}/#">Compare Neighborhood Areas</a>
-        </li>      
-        <li>       
-          <a href="{{ site.baseurl }}/#">Market Research</a>
-        </li>      
-        <li>       
-          <a href="{{ site.baseurl }}/#">Segments</a>
-        </li>
       </ul>
     </div>
   </div>
