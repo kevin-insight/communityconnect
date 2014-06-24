@@ -89,7 +89,8 @@ body {
 .navbar .navbar-nav li a {
   padding-bottom: 11px;
 }
-.navbar .navbar-nav li a:hover {
+.navbar .navbar-nav li:hover,
+.navbar .navbar-nav li.active {
   border-bottom: 4px solid #1E417C;
   color: #1E417C;
 }
@@ -108,4 +109,7 @@ body {
     position: absolute;
     width: 250px;
   }
+}
+.nav-second-level {
+  margin-left: 20px;
 }

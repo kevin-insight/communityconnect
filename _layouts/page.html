@@ -15,9 +15,9 @@ layout: default
     </div>
     
     <ul class="nav navbar-nav">
-      <li><a href="{{ site.baseurl }}/dashboard">Dashboard</a></li>
-      <li><a href="{{ site.baseurl }}/community">Community</a></li>
-      <li><a href="{{ site.baseurl }}/services">Services</a></li>
+      <li {% if page.url contains "/dashboard" %}class="active"{% endif %}><a href="{{ site.baseurl }}/dashboard">Dashboards</a></li>
+      <li {% if page.url contains "/community" %}class="active"{% endif %}><a href="{{ site.baseurl }}/community">Community</a></li>
+      <li {% if page.url contains "/services" %}class="active"{% endif %}><a href="{{ site.baseurl }}/services">Services</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
