@@ -2,6 +2,25 @@
 layout: page
 ---
 
+  <div class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav" id="side-menu">
+        <li>
+          <a href="{{ site.baseurl }}/#">Default Dashboard</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/#">Custom Dashboard 1</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/#">Custom Dashboard 2</a>
+        </li>       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="page-wrapper">
+  
 <div class="row">
   <div class="col-lg-12">
     <h1 class="page-header">Dashboard</h1>
@@ -55,6 +74,16 @@ layout: page
       </div>
     </div>
   </div>
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Current Services
+      </div>
+      <div class="panel-body">
+        Summary of current service efforts.
+      </div>
+    </div>
+  </div>
   
   <div class="col-lg-6">
     <div class="panel panel-default">
@@ -67,4 +96,6 @@ layout: page
     </div>
   </div>
   
+</div>
+
 </div>
