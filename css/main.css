@@ -93,6 +93,10 @@ body {
   border-bottom: 4px solid #1E417C;
   color: #1E417C;
 }
+.account-image {
+  border-radius: 3px;
+  margin-right: 5px;
+}
 
 /*
  * Sidebar Menu

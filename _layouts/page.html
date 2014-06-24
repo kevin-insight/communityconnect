@@ -11,20 +11,36 @@ layout: default
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">CommunityConnect</a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/dashboard">CommunityConnect</a>
     </div>
     
     <ul class="nav navbar-nav">
-      <li><a href="{{ site.baseurl }}/#">Community</a></li>
-      <li><a href="{{ site.baseurl }}/#">Services</a></li>
+      <li><a href="{{ site.baseurl }}/dashboard">Dashboard</a></li>
+      <li><a href="{{ site.baseurl }}/community">Community</a></li>
+      <li><a href="{{ site.baseurl }}/services">Services</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="{{ site.baseurl }}/#">About</a></li>
-      <li><a href="{{ site.baseurl }}/#">My Account</a></li>
-      <li><a href="{{ site.baseurl }}/#">Support</a></li>
-      <li><a href="{{ site.baseurl }}/#">Feedback</a></li>
-      <li><a href="{{ site.baseurl }}/#">Settings</a></li>
-      <li><a href="{{ site.baseurl }}/#">Log Out</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help and Support <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/#">About</a></li>
+          <li><a href="{{ site.baseurl }}/#">Support</a></li>
+          <li><a href="{{ site.baseurl }}/#">Feedback</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/#">Account Settings</a></li>
+          <li><a href="{{ site.baseurl }}/#">CommunityConnect Settings</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="account-image" src="holder.js/24x24/#7e7e7e:#FFF/text: ">Account Name <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/#">Log out</a></li>
+        </ul>
+      </li>
     </ul>
   </div><!-- /.container-fluid -->
 
