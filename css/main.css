@@ -86,6 +86,13 @@ body {
 .navbar {
   margin-bottom: 0px;
 }
+.navbar .navbar-nav li a {
+  padding-bottom: 11px;
+}
+.navbar .navbar-nav li a:hover {
+  border-bottom: 4px solid #1E417C;
+  color: #1E417C;
+}
 
 /*
  * Sidebar Menu

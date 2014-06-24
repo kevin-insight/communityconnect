@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<nav class="navbar navbar-default navbar-inverse" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -14,19 +14,23 @@ layout: default
       <a class="navbar-brand" href="#">CommunityConnect</a>
     </div>
     
+    <ul class="nav navbar-nav">
+      <li><a href="{{ site.baseurl }}/#">Community</a></li>
+      <li><a href="{{ site.baseurl }}/#">Services</a></li>
+    </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="{{ site.baseurl }}/#">About</a></li>
       <li><a href="{{ site.baseurl }}/#">My Account</a></li>
       <li><a href="{{ site.baseurl }}/#">Support</a></li>
-      <li><a href="{{ site.baseurl }}/#">Reports</a></li>
       <li><a href="{{ site.baseurl }}/#">Feedback</a></li>
-      <li><a href="{{ site.baseurl }}/#">Customer Admin</a></li>
+      <li><a href="{{ site.baseurl }}/#">Settings</a></li>
       <li><a href="{{ site.baseurl }}/#">Log Out</a></li>
     </ul>
   </div><!-- /.container-fluid -->
 
   <div class="navbar-default navbar-static-side" role="navigation">
     <div class="sidebar-collapse" id="bs-example-navbar-collapse-1">
+      <!--
       <ul class="nav" id="side-menu">
         <li>
           <a href="{{ site.baseurl }}/#">Overview <span class="caret"></span></a>
@@ -51,7 +55,7 @@ layout: default
               <li><a href="#">Feedback and Notes</a></li>
           </ul>
         </li>      
-      </ul>
+      </ul>-->
     </div>
   </div>
 </nav>
